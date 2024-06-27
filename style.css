@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Importar fuente de Google Fonts por ejemplo Roboto*/
+body{
+   font-family: "Roboto", sans-serif;
+}
+
+/* Selectores */
+.ejemplo.selectores {
+    color: blue;
+}
+
+/* Herencia */
+.padre {
+    color: green;
+    font-size: 20px;
+}
+
+.padre .hijo {
+    font-size: 18px; /* Este tamaño no se hereda, se sobrescribe */
+}
+
+/* Cascada */
+.cascada {
+    color: red; /* Esta regla será sobrescrita */
+}
+
+.cascada {
+    color: purple; /* Esta regla tiene prioridad por el orden de aparición */
+}
+
+/* Especificidad */
+#especificidad {
+    color: orange; /* ID tiene más especificidad que clase */
+}
+
+#especificidad {
+    font-weight: bold;
+}
+
+/* PROPIEDADES DE FUENTES O TEXTO */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* TAMANOS DE FUENTES */
+.font-px {
+    font-size: 16px;
+}
+
+.font-em {
+    font-size: 1.5em;
+}
+
+.font-rem {
+    font-size: 1.5rem;
+}
+
+.font-vw {
+    font-size: 2vw;
+}
+
+.font-vh {
+    font-size: 2vh;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="selectores">
+            <h2>Selectores</h2>
+            <p>Los selectores en CSS se utilizan para seleccionar los elementos HTML que queremos estilizar. Algunos ejemplos de selectores son:</p>
+            <p>element : Selecciona todos los elementos de ese tipo./p>
+            <p>#id : Selecciona el elemento con ese ID específico.</p>
+            <p>.clase : Selecciona todos los elementos con esa clase.</p>
+                
+            <div class="ejemplo selectores">
+                <p>Hola soy un selector de clase</p>
+            </div>
+        </section>
+        <section id="herencia">
+            <h2>Herencia</h2>
+            <p>La herencia en CSS se refiere a la capacidad de algunos estilos de ser heredados por los elementos hijos desde sus elementos padres. No todas las propiedades son heredables, pero muchas de las propiedades relacionadas con el texto lo son.</p>
+            <div class="padre">
+                <p>Elemento padre.</p>
+                <div class="hijo">
+                    <p>Elemento hijo que hereda estilos del padre.</p>
+                </div>
+            </div>
+        </section>
+        <section id="cascada">
+            <h2>Cascada</h2>
+            <p>La cascada en CSS se refiere al orden en que se aplican las reglas CSS. Las reglas pueden sobrescribirse según la fuente, el origen, la importancia y el orden en el que aparecen.</p>
+            <div class="cascada">
+                <p>Texto con estilos aplicados en cascada.</p>
+            </div>
+        </section>
+        <section id="especificidad">
+            <h2>Especificidad</h2>
+            <p>La especificidad determina qué reglas CSS se aplican cuando hay conflictos. Es una medida de qué tan específico es un selector. Los estilos inline tienen la mayor especificidad, seguidos por los ID, clases y elementos.</p>
+            <div id="especificidad">
+                <p>Texto con estilos específicos.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
